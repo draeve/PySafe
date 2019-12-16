@@ -13,13 +13,13 @@ PySafe is a highly customizeable and beginner-friendly Arduino enabled smart-saf
 
 ## Python code:
 The UI consists of 3 main pages:
-* Menu
+* __Menu__
 	* Input the password -> compares the inputted password against the master password -> gives/declines authorization
 	* __What can be worked on:__ clear password input upon entering so the user could try again without having to run the program again
-* Lock/Unlock
+* __Lock/Unlock__
 	* Uses pyserial to communicate with the port where the Arduino is plugged into.
 	* Self explanatory - click 'Lock PySafe' to lock, and 'Unlock PySafe' to unlock
-* Reset Password
+* __Reset Password__
 	* Takes input for the new password and writes it to the password.key file.
 	* __What can be worked on:__ Implement hashing (attempted to but came across problems with byte/string/hash conversions) for security
 	
