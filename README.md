@@ -28,7 +28,8 @@ The UI consists of 3 main pages.
 * __Reset Password__
 	* Takes input for the new password and writes it to the password.key file.
 	* __What can be worked on:__ Implement hashing (attempted to but came across problems with byte/string/hash conversions) for security
-
+	
+![](/readme-pysafe/reset.png)
 
 
 ### Things to note when using pyserial and/or working with Arduino and Python:
